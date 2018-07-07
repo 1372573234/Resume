@@ -1,0 +1,100 @@
+*{
+    margin: 0; padding: 0;
+}
+html,body{
+    width: 100%; 
+    height: 100%;
+}
+.all{
+    width: 62%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(93, 128, 170,1);
+}
+.head{
+    width: 100%;
+    height: 31%;
+    background: url(../images/bak.jpg) ;
+    
+}
+.left{
+    width: 20%;
+    height: 66%;
+    background:#b4dcf0;
+    text-align: center;
+    float: left;
+}
+#logo{
+    width: 102px;
+    height: 102px;
+    margin-top: 20px;
+    margin-left: 50px;
+    overflow: hidden;
+
+}
+.left a{
+    line-height: 20px;
+    text-decoration: none;
+}
+.left span{
+    color: #8da9b8;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.logo{
+   
+   transition: all ease-in-out 0.5s;
+}
+.logo:hover{
+    transform: scale(1.5,1.5);
+}
+.mes,.exp,.work{
+    width: 100%; 
+    height: 10%;
+    background: rgba(93, 128, 170, 1);
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+    transition: all ease-in-out 0.5s;
+}
+.mes:hover{
+    background:rgba(93, 128, 170, 0.8);
+}
+.exp:hover{
+    background: rgba(93, 128, 170, 0.8);
+}
+.work:hover{
+    background: rgba(93, 128, 170, 0.8);
+}
+.mes img,.exp img,.work img{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.mes a,.exp a,.work a{
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    font-size: 14px;
+    color:#e1e4e6;
+    font-size: 16px;
+    font-weight: bold;
+}
+.content{
+    float: left;
+    width: 80%;
+    height: 66%;
+    background:#d5f1ff;
+}
+#footer{
+    width: 100%;
+    height: 3%;
+    text-align: center;
+    background:#0c5b7a;
+    line-height: 25px;
+    color:#d6dada;
+}
+#frame01{
+    width: 100%;
+    height: 100%;
+}
